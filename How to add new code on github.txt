@@ -1,0 +1,14 @@
+How to add new code on github
+
+[root@cacti-nxg testing]# git add .
+[root@cacti-nxg testing]# 
+[root@cacti-nxg testing]# git commit -m "Add Comment" filename2
+[master 428e39e] Add Comment
+ 1 file changed, 1 insertion(+)
+ create mode 100644 filename2
+[root@cacti-nxg testing]# 
+[root@cacti-nxg testing]# git push origin master    
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/ekarits/australia.git
+git push -u origin master
